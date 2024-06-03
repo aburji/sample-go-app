@@ -15,3 +15,5 @@ jobs:
         shell: sh
         run: |
           echo "hello world"
+      - name: Scan with SonarQube bundled action
+        uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
